@@ -1,7 +1,7 @@
 const items = [
   {
     id:'001',
-    product_image: '../images/1.jpg',
+    product_image: 'https://m.media-amazon.com/images/I/61-MlTeQ1lL._AC_UY1100_.jpg',
     rating: {
       stars:4.5,
       noOfReviews: 1400,
