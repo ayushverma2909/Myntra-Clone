@@ -61,7 +61,7 @@ const items = [
 
   {
     id:'005',
-    product_image: 'https://5.imimg.com/data5/BZ/FX/DP/ANDROID-17852573/1560116141951-jpg-500x500.jpg',
+    product_image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQNWDlJkGBkIXFctvgEovolXbsLc3pbDJLEu5ysM9R_MZiSriRIgq-WwJZbKMMDPm6xgvBRXU3Or_SkT8jVAGyM0HK6UKhm953lofKvc8dm&usqp=CAE',
     rating: {
       stars:4.5,
       noOfReviews: 1400,
