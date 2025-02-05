@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Myntra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f8f8;
+            margin: 0;
+        }
+        .login-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+        .login-box h2 {
+            margin-bottom: 10px;
+        }
+        .login-input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px -10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .login-btn, .google-login {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .login-btn {
+            background-color: #ff3f6c;
+            color: white;
+        }
+        .google-login {
+            background-color: #4285F4;
+            color: white;
+        }
+        .terms {
+            font-size: 12px;
+            color: #777;
+        }
+        .or-section {
+            margin: 10px 0;
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <p>Enter your email or phone number to continue</p>
+            <input type="text" placeholder="Email or Phone Number" class="login-input" id="loginInput">
+            <button class="login-btn" onclick="login()">Continue</button>
+            <p class="terms">By continuing, you agree to Myntra’s <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.</p>
+            <div class="or-section">
+                <span>OR</span>
+            </div>
+            <button class="google-login" onclick="googleLogin()">Continue with Google</button>
+        </div>
+    </div>
+    <script>
+        function login() {
+            let input = document.getElementById('loginInput').value;
+            if (input) {
+                alert('Login successful for: ' + input);
+            } else {
+                alert('Please enter a valid email or phone number');
+            }
+        }
+        function googleLogin() {
+            alert('Redirecting to Google login...');
+        }
+    </script>
+</body>
+</html>
