@@ -135,7 +135,11 @@ const items = [
   },
 ]
 
-
+// Profile login
+function openLoginPage() {
+  // Redirect to a login page (create login.html separately)
+  window.location.href = "login.html";
+}
 
 
 
